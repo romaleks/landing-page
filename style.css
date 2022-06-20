@@ -107,6 +107,11 @@ ul {
    background-color: #2d68c7;
 }
 
+.about__btn:active {
+   background-color: #fff;
+   color: #3882f6;
+}
+
 .information {
    text-align: center;
    padding: 40px 0 80px;
@@ -159,4 +164,51 @@ ul {
    font-size: 18px;
    font-weight: 900;
    margin: 20px 0px 0px 0px;
+}
+
+.sign-up {
+   padding: 100px;
+}
+
+.sign-up__block {
+   background-color: #3882f6;
+   padding: 60px;
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.sign-up__text {
+   color: #fff;
+   font-size: 18px;
+}
+.sign-up__title {
+   font-weight: bold;
+   font-size: 28px;
+   margin: 0px 0px 5px 0px;
+}
+.sign-up__btn {
+   color: #fff;
+   font-size: 22px;
+   border: 2px solid #fff;
+   border-radius: 10px;
+   padding: 10px 40px;
+}
+
+.sign-up__btn:hover {
+   background-color: #2d68c7;
+}
+
+.sign-up__btn:active {
+   background-color: #fff;
+   color: #3882f6;
+}
+
+.footer {
+   padding: 40px;
+   background-color: #131c2c;
+   text-align: center;
+}
+.footer__text {
+   color: #fff;
 }
