@@ -1,0 +1,108 @@
+body {
+   margin: 0;
+   font-family: sans-serif;
+}
+
+a {
+   text-decoration: none;
+}
+
+ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+
+.container {
+   max-width: 1100px;
+   margin: 0 auto;
+}
+
+.top {
+   background: url('/img/city.jpg') center / cover fixed;
+   height: 100vh;
+}
+
+.header {
+   padding: 20px;
+   margin: 0px 0px 150px 0px;
+}
+
+.header__row {
+   display: flex;
+   justify-content: space-between;
+}
+
+.header__logo {
+   display: block;
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   background: url('/img/logo.jpg') center / cover;
+}
+
+.header__menu {
+   display: flex;
+   align-items: center;
+   gap: 25px;
+}
+
+.header__link {
+   font-size: 24px;
+   font-weight: bold;
+}
+
+.header__link:hover {
+   margin-bottom: -2px;
+}
+
+.header__link:hover:after {
+   content: '';
+   display: block;
+   width: auto;
+   height: 2px;
+   background-color: #000;
+}
+
+.about {
+   padding: 40px;
+}
+
+.about__row {
+   display: flex;
+   justify-content: space-between;
+   background-color: rgba(0, 0, 0, 0.436);
+   padding-right: 30px;
+}
+
+.about__image {
+   background: url('img/city_02.jpg') center / cover;
+   width: 500px;
+   height: 300px;
+   flex: 0 1 auto;
+}
+.about__content {
+   text-align: right;
+   flex: 0 1 500px;
+}
+.about__title {
+   font-size: 48px;
+   font-weight: 900;
+   color: #fff;
+   margin: 0px 0px 15px 0px;
+}
+.about__text {
+   color: rgb(201, 201, 201);
+   font-size: 22px;
+   font-weight: bold;
+   margin: 0px 0px 20px 0px;
+}
+.about__btn {
+   color: #fff;
+   background-color: #3882f6;
+   padding: 10px 30px;
+   border-radius: 10px;
+}
+.about__btn:hover {
+   background-color: #2d68c7;
+}
