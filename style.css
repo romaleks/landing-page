@@ -19,7 +19,7 @@ ul {
 }
 
 .top {
-   background: url('/img/city.jpg') center / cover fixed;
+   background: url('img/city.jpg') center / cover fixed;
    height: 100vh;
 }
 
@@ -38,7 +38,7 @@ ul {
    width: 100px;
    height: 100px;
    border-radius: 50%;
-   background: url('/img/logo.jpg') center / cover;
+   background: url('img/logo.jpg') center / cover;
 }
 
 .header__menu {
