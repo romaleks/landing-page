@@ -106,3 +106,57 @@ ul {
 .about__btn:hover {
    background-color: #2d68c7;
 }
+
+.information {
+   text-align: center;
+   padding: 40px 0 80px;
+}
+.information__title {
+   font-size: 36px;
+   font-weight: 900;
+   padding: 0px 0px 40px 0px;
+}
+
+.information__row {
+   display: flex;
+   justify-content: space-between;
+}
+
+.information__column {
+   text-align: center;
+}
+.information__image {
+   display: inline-block;
+   width: 200px;
+   height: 200px;
+   background: url('img/city_03.jpg') center / cover;
+   border-radius: 10%;
+   border: 5px solid #000;
+   margin: 0px 0px 10px 0px;
+}
+
+.information__image:hover {
+   box-shadow: 0px 0px 7px #000
+}
+
+.information__text {
+   font-size: 16px;
+   font-weight: bold;
+   max-width: 200px;
+}
+
+.quote {
+   background-color: #e5e7eb;
+   padding: 80px 0 70px;
+}
+.quote__text {
+   font-size: 36px;
+   font-weight: light;
+   font-style: italic;
+}
+.quote__author {
+   text-align: right;
+   font-size: 18px;
+   font-weight: 900;
+   margin: 20px 0px 0px 0px;
+}
