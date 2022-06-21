@@ -21,11 +21,12 @@ ul {
 .top {
    background: url('img/city.jpg') center / cover fixed;
    height: 100vh;
+   display: flex;
+   flex-direction: column;
 }
 
 .header {
    padding: 20px;
-   margin: 0px 0px 150px 0px;
 }
 
 .header__row {
@@ -66,6 +67,10 @@ ul {
 
 .about {
    padding: 40px;
+   height: auto;
+   flex: 1 0 auto;
+   display: flex;
+   align-items: center;
 }
 
 .about__row {
